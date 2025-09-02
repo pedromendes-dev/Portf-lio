@@ -15,7 +15,7 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [showAdminLogin, setShowAdminLogin] = useState(false);
   const [showAdminDashboard, setShowAdminDashboard] = useState(false);
-  const [adminView, setAdminView] = useState('messages'); // 'messages' or 'comments'
+  const [adminView, setAdminView] = useState('messages'); // 'messages' ou 'comments'
   
   const { isNavbarVisible, hideNavbar, showNavbar } = useNavbar();
   const { isAuthenticated, logout } = useAdmin();
