@@ -29,11 +29,11 @@ function App() {
     setIs3dEnabled(prev => !prev);
   };
 
-  // Data untuk card statistik
+  // Data para card estatísticas
   const stats = [
-    { icon: <FaCode />, value: "13", title: "TOTAL PROJECTS", description: "Innovative web solutions crafted" },
-    { icon: <FaCertificate />, value: "13", title: "CERTIFICATES", description: "Professional skills validated" },
-    { icon: <FaGlobe />, value: "3", title: "YEARS OF EXPERIENCE", description: "Continuous learning journey" },
+    { icon: <FaCode />, value: "13", title: "PROJETOS TOTAIS", description: "Soluções web inovadoras criadas" },
+    { icon: <FaCertificate />, value: "13", title: "CERTIFICADOS", description: "Habilidades profissionais validadas" },
+    { icon: <FaGlobe />, value: "3", title: "ANOS DE EXPERIÊNCIA", description: "Jornada de aprendizado contínuo" },
   ];
 
   return (
@@ -72,14 +72,14 @@ function App() {
                     <AnimatedGradientTextDemo />
                 </motion.div>
                 <motion.h1 initial={{ opacity: 0, x: -60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.25, ease: "easeOut" }} className="text-4xl md:text-4xl font-moderniz font-bold leading-tight select-none" style={{ color: "#00ffdc", textShadow: `2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc` }}>
-                    WELCOME TO MY
-                    <span style={{ display: 'block', marginTop: '0.4em' }}>PORTFOLIO</span>
+                    BEM-VINDO AO MEU
+                    <span style={{ display: 'block', marginTop: '0.4em' }}>PORTFÓLIO</span>
                 </motion.h1>
                 <motion.div initial={{ opacity: 0, x: 60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}>
                     <GradientText colors={["#40f2ffff", "#4079ff", "#40fffcff", "#4079ff", "#40f9ffff"]} animationSpeed={3} className="custom-class font-cascadia font-bold" />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.55, ease: "easeOut" }}>
-                    <TextGenerateEffect words={'I craft responsive and visually engaging websites using React, Tailwind CSS, and modern web technologies.'} />
+                    <TextGenerateEffect words={'Crio sites responsivos e visualmente envolventes usando React, Tailwind CSS e tecnologias web modernas.'} />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.7, ease: "easeOut" }}>
                     <Skills />
@@ -158,20 +158,20 @@ function App() {
                   // Lebar berubah jika 3D dinonaktifkan
                   className={`text-white text-center md:text-left px-4 md:px-8 transition-all duration-700 ${is3dEnabled ? 'md:w-1/2' : 'md:w-2/3'}`}
                 >
-                  <p className="text-2xl text-gray-300 font-moderniz my" style={{ textShadow: "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" }}>Hello, I'm</p>
-                  <h3 className="text-4xl font-bold text-white my-2 font-moderniz" style={{ textShadow: "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" }}>Developer</h3>
+                  <p className="text-2xl text-gray-300 font-moderniz my" style={{ textShadow: "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" }}>Olá, eu sou</p>
+                  <h3 className="text-4xl font-bold text-white my-2 font-moderniz" style={{ textShadow: "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" }}>Desenvolvedor</h3>
                   <p className="text-white/80 leading-relaxed mt-4 font-cascadia text-justify">
-                    I am a passionate developer with a strong interest in Front-End development and modern web technologies. I am always excited to learn new things and create innovative digital solutions.
+                    Sou um desenvolvedor apaixonado com forte interesse em desenvolvimento Front-End e tecnologias web modernas. Estou sempre animado para aprender coisas novas e criar soluções digitais inovadoras.
                   </p>
                   <div className="my-6 bg-slate-900/50 border-l-4 border-[#00ffdc] p-4 rounded-r-lg italic text-white/70 font-cascadia">
-                    "Whoever strives shall succeed."
+                    "Quem se esforça, consegue."
                   </div>
                   <div className="flex flex-row sm:flex-row gap-4 mt-8 justify-center md:justify-start items-center">
                     <ButtonMovingBorder as="a" href="/cv.pdf" download duration={3000} borderRadius="0.75rem" className="bg-slate-900/[0.8] border border-slate-800 text-white font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:shadow-[0_0_24px_8px_#40ffaa]">
-                      <FaDownload /> Download CV
+                      <FaDownload /> Baixar CV
                     </ButtonMovingBorder>
                     <ButtonMovingBorder as="a" href="#projects" duration={3000} borderRadius="0.75rem" className="bg-slate-900/[0.8] border border-slate-800 text-white font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:shadow-[0_0_24px_8px_#40ffaa]">
-                      <FaBriefcase /> View Projects
+                      <FaBriefcase /> Ver Projetos
                     </ButtonMovingBorder>
                   </div>
                 </motion.div>
@@ -209,8 +209,8 @@ function App() {
 
             {/* FOOTER */}
             <footer className="py-8 text-center text-gray-400">
-              <div className="text-sm">© {new Date().getFullYear()} Portfolio. All rights reserved.</div>
-              <div className="text-xs mt-2">Built with <span className="text-red-500">♥</span> using React, Tailwind CSS, and Framer Motion.</div>
+              <div className="text-sm">© {new Date().getFullYear()} Portfólio. Todos os direitos reservados.</div>
+              <div className="text-xs mt-2">Construído com <span className="text-red-500">♥</span> usando React, Tailwind CSS e Framer Motion.</div>
             </footer>
           </main>
         </div>

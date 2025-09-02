@@ -1,45 +1,45 @@
-# Pedro Mendes PORTFOLIO PROJECT
+# Pedro Mendes - PROJETO PORTFÓLIO
 
-This is a React project developed using Vite — a modern build tool known for its high performance, Hot Module Replacement (HMR) support, and fast development time.
+Este é um projeto React desenvolvido usando Vite — uma ferramenta de build moderna conhecida por sua alta performance, suporte a Hot Module Replacement (HMR) e tempo de desenvolvimento rápido.
 
-> ⚠️ This project is still under **active development**. Please do not copy, plagiarize, or redistribute any part of this project **without proper credit or permission from the author.**
+> ⚠️ Este projeto ainda está em **desenvolvimento ativo**. Por favor, não copie, plagiie ou redistribua qualquer parte deste projeto **sem crédito adequado ou permissão do autor.**
 
 ---
 
-## 📆 Technologies Used
+## 📆 Tecnologias Utilizadas
 
 * ⚛️ [React](https://react.dev/)
 * ⚡ [Vite](https://vitejs.dev/)
-* 💨 [Tailwind CSS](https://tailwindcss.com/) *(optional, if used)*
-* 🧪 [ESLint](https://eslint.org/) for static code analysis
-* 🔄 Fast Refresh (via Babel or SWC plugin)
+* 💨 [Tailwind CSS](https://tailwindcss.com/) *(opcional, se usado)*
+* 🧪 [ESLint](https://eslint.org/) para análise estática de código
+* 🔄 Fast Refresh (via plugin Babel ou SWC)
 
 ---
 
-## 🛠️ How to Run This Project
+## 🛠️ Como Executar Este Projeto
 
-1. **Clone this repository:**
+1. **Clone este repositório:**
 
    ```bash
-   git clone https://github.com/username/-----
-   cd ----
+   git clone https://github.com/pedromendes-dev/Portf-lio.git
+   cd Portf-lio
    ```
 
-2. **Install dependencies:**
+2. **Instale as dependências:**
 
    ```bash
    npm install
    ```
 
-3. **Run the project locally:**
+3. **Execute o projeto localmente:**
 
    ```bash
    npm run dev
    ```
 
-   Then open your browser at: [http://localhost:5173](http://localhost:5173)
+   Em seguida, abra seu navegador em: [http://localhost:5173](http://localhost:5173)
 
-4. **Build for production (optional):**
+4. **Build para produção (opcional):**
 
    ```bash
    npm run build
@@ -47,34 +47,34 @@ This is a React project developed using Vite — a modern build tool known for i
 
 ---
 
-## ❗ Copyright & License
+## ❗ Copyright e Licença
 
-This project is a portfolio template and is intended for personal reference use only.
+Este projeto é um template de portfólio e destina-se apenas para uso de referência pessoal.
 
-🚫 **Strictly prohibited to plagiarize, reupload, or use any part of the code without proper credit or permission.**
+🚫 **Estritamente proibido plagiizar, reenviar ou usar qualquer parte do código sem crédito adequado ou permissão.**
 
-📄 For license details or collaboration inquiries, feel free to contact me directly via GitHub.
-
----
-
-## 📌 Additional Notes
-
-If you wish to build upon this project or use parts of its ideas/code, **you must provide proper credit with a link to this repository**.
-
-Thank you for respecting the developer's work! 🙏
+📄 Para detalhes de licença ou consultas de colaboração, sinta-se à vontade para entrar em contato comigo diretamente via GitHub.
 
 ---
 
-## 💖 Support the Developer
+## 📌 Notas Adicionais
 
-If you find this project helpful and wish to support:
+Se você deseja construir sobre este projeto ou usar partes de suas ideias/código, **você deve fornecer crédito adequado com um link para este repositório**.
+
+Obrigado por respeitar o trabalho do desenvolvedor! 🙏
+
+---
+
+## 💖 Apoie o Desenvolvedor
+
+Se você acha este projeto útil e deseja apoiar:
  ⭐ ⭐ ⭐ ⭐ ⭐ ⭐
 
-Your support mePayns a lot and helps me continue building open-source projects. Thank you! 🙌
+Seu apoio significa muito e me ajuda a continuar construindo projetos de código aberto. Obrigado! 🙌
 
-## 🌐 Social Media
+## 🌐 Redes Sociais
 
 * 💼 [LinkedIn]
 * 📸 Instagram: 
 
-# Portf-lio
+# Portfólio

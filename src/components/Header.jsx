@@ -135,7 +135,7 @@ const Header = () => {
                     <div>
                       <h1 className="font-moderniz text-sm text-[#00ffdc] whitespace-nowrap">Portfolio</h1>
                       <p className="font-moderniz text-[9px] text-[#000754]" style={{ textShadow: '0.5px 0.5px 0 #00ffdc, -0.5px -0.5px 0 #00ffdc, 0.5px -0.5px 0 #00ffdc, -0.5px 0.5px 0 #00ffdc' }}>
-                        Let's see the awesome Experience
+                        Vamos ver a Experiência Incrível
                       </p>
                     </div>
                   </a>
@@ -149,8 +149,8 @@ const Header = () => {
                 <div className="hidden w-full md:flex items-center justify-around">
                   {/* Desktop: Left Navigation */}
                   <ul className="flex items-center list-none gap-x-20">
-                    <NavLink href="#home">Home</NavLink>
-                    <NavLink href="#about">About</NavLink>
+                    <NavLink href="#home">Início</NavLink>
+                    <NavLink href="#about">Sobre</NavLink>
                   </ul>
                   
                   {/* Desktop: Center Logo & Text */}
@@ -161,7 +161,7 @@ const Header = () => {
                     <div className="block">
                       <h1 className="font-moderniz text-base text-[#00ffdc]">Portfolio</h1>
                       <p className="font-moderniz text-[10px] text-[#000754]" style={{ textShadow: '0.5px 0.5px 0 #00ffdc, -0.5px -0.5px 0 #00ffdc, 0.5px -0.5px 0 #00ffdc, -0.5px 0.5px 0 #00ffdc' }}>
-                        Let's see the awesome Experience
+                        Vamos ver a Experiência Incrível
                       </p>
                     </div>
                   </a>
@@ -169,8 +169,8 @@ const Header = () => {
                   {/* Desktop: Right Navigation & Admin Button */}
                   <div className="flex items-center gap-4">
                     <ul className="flex items-center list-none gap-16">
-                      <NavLink href="#projects">Project</NavLink>
-                      <NavLink href="#contact">Contact</NavLink>
+                      <NavLink href="#projects">Projetos</NavLink>
+                      <NavLink href="#contact">Contato</NavLink>
                     </ul>
                     <button
                       onClick={handleAdminAccess}
@@ -194,10 +194,10 @@ const Header = () => {
                     >
                       {/* This is the list that now appears in a row */}
                       <ul className="flex flex-row flex-wrap justify-center items-center gap-x-8 gap-y-3 mt-4 list-none">
-                        <NavLink href="#home">Home</NavLink>
-                        <NavLink href="#about">About</NavLink>
-                        <NavLink href="#projects">Project</NavLink>
-                        <NavLink href="#contact">Contact</NavLink>
+                        <NavLink href="#home">Início</NavLink>
+                        <NavLink href="#about">Sobre</NavLink>
+                        <NavLink href="#projects">Projetos</NavLink>
+                        <NavLink href="#contact">Contato</NavLink>
                         <li>
                           <button
                             onClick={handleAdminAccess}

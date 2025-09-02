@@ -178,13 +178,13 @@ const Contact = () => {
         >
           <h2 className="text-5xl md:text-6xl font-bold font-moderniz mb-4">
             <span className="bg-gradient-to-r from-cyan-400 via-emerald-400 to-cyan-600 bg-clip-text text-transparent">
-              GET IN
+              ENTRE EM
             </span>
             {' '}
-            <span className="text-white">TOUCH</span>
+            <span className="text-white">CONTATO</span>
           </h2>
           <p className="text-xl text-slate-400 font-cascadia">
-            Mari berkolaborasi dan ciptakan sesuatu yang amazing!
+            Vamos colaborar e criar algo incrível!
           </p>
           
           {/* Admin Button - positioned top right */}
@@ -221,8 +221,8 @@ const Contact = () => {
                     <FaPaperPlane className="text-white text-xl" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Hubungi Saya</h3>
-                    <p className="text-slate-400">Ada yang ingin didiskusikan? Kirim pesan ke saya!</p>
+                    <h3 className="text-2xl font-bold text-white">Entre em Contato</h3>
+                    <p className="text-slate-400">Tem algo para discutir? Envie uma mensagem!</p>
                   </div>
                 </div>
 
@@ -232,7 +232,7 @@ const Contact = () => {
                       <FaUser className="absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400 group-focus-within:text-cyan-400 transition-colors duration-300" />
                       <input
                         type="text"
-                        placeholder="Nama Anda"
+                        placeholder="Seu Nome"
                         value={contactForm.name}
                         onChange={(e) => setContactForm(prev => ({ ...prev, name: e.target.value }))}
                         className="w-full pl-12 pr-4 py-4 bg-slate-800/50 border border-slate-600/50 rounded-xl text-white placeholder-slate-400 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300"
@@ -246,7 +246,7 @@ const Contact = () => {
                       <FaEnvelope className="absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400 group-focus-within:text-cyan-400 transition-colors duration-300" />
                       <input
                         type="email"
-                        placeholder="Email Anda"
+                        placeholder="Seu Email"
                         value={contactForm.email}
                         onChange={(e) => setContactForm(prev => ({ ...prev, email: e.target.value }))}
                         className="w-full pl-12 pr-4 py-4 bg-slate-800/50 border border-slate-600/50 rounded-xl text-white placeholder-slate-400 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300"
@@ -259,7 +259,7 @@ const Contact = () => {
                     <div className="relative">
                       <FaComment className="absolute left-4 top-6 text-slate-400 group-focus-within:text-cyan-400 transition-colors duration-300" />
                       <textarea
-                        placeholder="Pesan Anda"
+                        placeholder="Sua Mensagem"
                         rows="4"
                         value={contactForm.message}
                         onChange={(e) => setContactForm(prev => ({ ...prev, message: e.target.value }))}
@@ -281,7 +281,7 @@ const Contact = () => {
                     ) : (
                       <>
                         <FaPaperPlane />
-                        <span>Kirim Pesan</span>
+                        <span>Enviar Mensagem</span>
                       </>
                     )}
                   </motion.button>
@@ -292,7 +292,7 @@ const Contact = () => {
             {/* Divider */}
             <div className="flex items-center gap-4">
               <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-600 to-transparent"></div>
-              <span className="text-slate-400 font-semibold">atau</span>
+              <span className="text-slate-400 font-semibold">ou</span>
               <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-600 to-transparent"></div>
             </div>
 
@@ -300,7 +300,7 @@ const Contact = () => {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
               <div className="relative bg-slate-900/80 backdrop-blur-xl rounded-3xl p-8 border border-slate-700/50">
-                <h3 className="text-2xl font-bold text-white mb-6 text-center">Connect With Me</h3>
+                <h3 className="text-2xl font-bold text-white mb-6 text-center">Conecte-se Comigo</h3>
                 <div className="grid gap-4">
                   {socialLinks.map((social, index) => (
                     <motion.a
@@ -320,7 +320,7 @@ const Contact = () => {
                       </div>
                       <div className="flex-1">
                         <span className="font-semibold">{social.name}</span>
-                        <p className="text-sm opacity-90">Follow me on {social.name}</p>
+                        <p className="text-sm opacity-90">Siga-me no {social.name}</p>
                       </div>
                       <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <FaReply className="rotate-180" />
@@ -349,8 +349,8 @@ const Contact = () => {
                     <FaComment className="text-white text-xl" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Leave a Comment</h3>
-                    <p className="text-slate-400">Share your thoughts!</p>
+                    <h3 className="text-2xl font-bold text-white">Deixe um Comentário</h3>
+                    <p className="text-slate-400">Compartilhe seus pensamentos!</p>
                   </div>
                 </div>
 
@@ -381,14 +381,14 @@ const Contact = () => {
                     <div className="flex-1 space-y-4">
                       <input
                         type="text"
-                        placeholder="Your Name"
+                        placeholder="Seu Nome"
                         value={commentForm.name}
                         onChange={(e) => setCommentForm(prev => ({ ...prev, name: e.target.value }))}
                         className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-xl text-white placeholder-slate-400 focus:border-emerald-400 focus:ring-2 focus:ring-emerald-400/20 transition-all duration-300"
                         required
                       />
                       <textarea
-                        placeholder="Write your comment..."
+                        placeholder="Escreva seu comentário..."
                         rows="3"
                         value={commentForm.message}
                         onChange={(e) => setCommentForm(prev => ({ ...prev, message: e.target.value }))}
@@ -410,7 +410,7 @@ const Contact = () => {
                     ) : (
                       <>
                         <FaComment />
-                        <span>Post Comment</span>
+                        <span>Publicar Comentário</span>
                       </>
                     )}
                   </motion.button>
